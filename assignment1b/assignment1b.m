@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+#import "PolygonShape.h"
 
 void PrintPathInfo() {
 	NSString *path = @"~";
@@ -60,6 +61,30 @@ void PrintIntrospectionInfo() {
 	}
 }
 
+void PrintPolygonInfo() {
+	NSMutableArray *array = [[NSMutableArray alloc] init];
+	PolygonShape *p1 = [[PolygonShape alloc] initWithNumberOfSides:4 minimumNumberOfSides:3 maximumNumberOfSides:7];
+	PolygonShape *p2 = [[PolygonShape alloc] init];
+	p2 = [p2 initWithNumberOfSides:6 minimumNumberOfSides:5 maximumNumberOfSides:9];
+	PolygonShape *p3 = [[PolygonShape alloc] init];
+	p3 = [p3 initWithNumberOfSides:12 minimumNumberOfSides:9 maximumNumberOfSides:12];
+	
+	[array addObject:p1]; 
+	NSLog(@"%@", [p1 description]);
+	[array addObject:p2];
+	NSLog(@"%@", [p2 description]);
+	[array addObject:p3]; 
+	NSLog(@"%@", [p3 description]);
+	
+	for(PolygonShape *poly in array) {
+		[poly setNumberOfSides:10];
+	}
+	[p1 release];
+	[p2 release];
+	[p3 release];
+	[array release];
+}
+
 int main (int argc, const char * argv[]) {
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
@@ -69,6 +94,7 @@ int main (int argc, const char * argv[]) {
 	PrintProcessInfo();
 	PrintBookmarkInfo();
 	PrintIntrospectionInfo();
+	PrintPolygonInfo(); // assignment 2a
     [pool drain];
     return 0;
 }
