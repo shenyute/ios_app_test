@@ -1,0 +1,90 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* HelloPoly */ = {
+		activeExec = 0;
+		executables = (
+			87817A6A15030417001EB0BD /* HelloPoly */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 87817A6A15030417001EB0BD /* HelloPoly */;
+		activeSDKPreference = iphonesimulator4.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* HelloPoly */;
+		codeSenseManager = 87817A7A1503041F001EB0BD /* Code sense */;
+		executables = (
+			87817A6A15030417001EB0BD /* HelloPoly */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 352519191;
+			PBXWorkspaceStateSaveDate = 352519191;
+		};
+		sourceControlManager = 87817A791503041F001EB0BD /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	87817A6A15030417001EB0BD /* HelloPoly */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HelloPoly;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	87817A791503041F001EB0BD /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	87817A7A1503041F001EB0BD /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
