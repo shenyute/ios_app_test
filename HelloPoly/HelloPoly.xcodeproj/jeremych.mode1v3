@@ -307,8 +307,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -326,7 +324,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>87817B631506558A001EB0BD</string>
+										<string>87817B661506566E001EB0BD</string>
 										<key>history</key>
 										<array>
 											<string>87817AAD150319F5001EB0BD</string>
@@ -540,8 +538,8 @@
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>87817A771503041F001EB0BD</string>
-		<string>/Users/jeremych/github/ios_app_test/HelloPoly/HelloPoly.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/jeremych/github/ios_app_test/HelloPoly/HelloPoly.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 118 1440 760 0 0 1440 878 </string>
