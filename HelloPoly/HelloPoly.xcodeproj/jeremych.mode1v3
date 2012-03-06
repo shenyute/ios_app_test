@@ -265,13 +265,14 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
+									<integer>15</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -325,16 +326,21 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>87817AD615031EC1001EB0BD</string>
+										<string>87817B631506558A001EB0BD</string>
 										<key>history</key>
 										<array>
 											<string>87817AAD150319F5001EB0BD</string>
 											<string>87817AAF150319F5001EB0BD</string>
-											<string>87817AB0150319F5001EB0BD</string>
-											<string>87817ABC15031BD2001EB0BD</string>
-											<string>87817AC815031E02001EB0BD</string>
-											<string>87817AC915031E02001EB0BD</string>
-											<string>87817ACA15031E02001EB0BD</string>
+											<string>87817ADB15033B9D001EB0BD</string>
+											<string>87817ADC15033B9D001EB0BD</string>
+											<string>87817ADD15033B9D001EB0BD</string>
+											<string>87817ADE15033B9D001EB0BD</string>
+											<string>87817B3215064DB1001EB0BD</string>
+											<string>87817B3F15064E19001EB0BD</string>
+											<string>87817B4415065223001EB0BD</string>
+											<string>87817B4515065223001EB0BD</string>
+											<string>87817B471506533D001EB0BD</string>
+											<string>87817B481506533D001EB0BD</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -534,8 +540,8 @@
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>87817A771503041F001EB0BD</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/jeremych/github/ios_app_test/HelloPoly/HelloPoly.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 118 1440 760 0 0 1440 878 </string>
@@ -559,7 +565,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Controller.h</string>
+								<string>PolyView.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -630,7 +636,7 @@
 			<key>WindowToolGUID</key>
 			<string>87817A771503041F001EB0BD</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

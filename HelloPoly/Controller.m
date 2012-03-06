@@ -22,12 +22,23 @@
 	}
 	NSLog(@"update numberOfSides %d", [polygon numberOfSides]);
 	numberOfSidesLabel.text = [NSString stringWithFormat:@"%d", [polygon numberOfSides]];
+	polygonLabel.text = [polygon name];
+}
+
+- (void)savePrefs {
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	
+	[defaults setInteger:polygon.numberOfSides forKey:@"numberOfSides"];
 }
 
 - (IBAction)decrease:(id)sender {
 	int sides = [polygon numberOfSides];
 	[polygon setNumberOfSides:sides-1];
 	[self updateInterface];
+	if (sides != [polygon numberOfSides]) {
+		[polyView repaint];
+		[self savePrefs];
+	}
     NSLog(@"I'm in the decrease method");
 }
 
@@ -35,13 +46,24 @@
 	int sides = [polygon numberOfSides];
 	[polygon setNumberOfSides:sides+1];
 	[self updateInterface];
+	if (sides != [polygon numberOfSides]) {
+		[polyView repaint];
+		[self savePrefs];
+	}
     NSLog(@"I'm in the increase method");
 }
-
+	
 - (void)awakeFromNib {
-	[polygon setMinimumNumberOfSides:3];
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	int sides = [defaults integerForKey: @"numberOfSides"];
+	
+	if (sides == 0)
+		sides = 5;
+	[polygon setNumberOfSides:sides];
 	[polygon setMaximumNumberOfSides:12];
-	[polygon setNumberOfSides:numberOfSidesLabel.text.integerValue];
+	[polygon setMinimumNumberOfSides:3];
+	numberOfSidesLabel.text = [NSString stringWithFormat:@"%d", sides];
+	[polygon setNumberOfSides:sides];
 	[self updateInterface];
 	NSLog(@"My polygon: %@", polygon);
 }

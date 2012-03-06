@@ -16,7 +16,6 @@
 @synthesize maximumNumberOfSides;
 
 - (void)awakeFromNib {
-	
 }
 
 - (void)setNumberOfSides:(int)sides {
@@ -61,12 +60,43 @@
 }
 
 - (NSString *) name {
-	if (numberOfSides == 3) {
-		return @"Triangle";
-	} else if (numberOfSides == 4) {
-		return @"Square";
-	} else {
-		return [NSString stringWithFormat:@"%d-sided polygon", numberOfSides];
+	switch (numberOfSides) {
+		case 2:
+			return @"line";
+			break;
+		case 3:
+			return @"triangle";
+			break;
+		case 4:
+			return @"square";
+			break;
+		case 5:
+			return @"pentagon";
+			break;
+		case 6:
+			return @"hexagon";
+			break;
+		case 7:
+			return @"septagon";
+			break;
+		case 8:
+			return @"octagon";
+			break;
+		case 9:
+			return @"nonagon";
+			break;
+		case 10:
+			return @"decagon";
+			break;
+		case 11:
+			return @"hendecagon";
+			break;
+		case 12:
+			return @"dodecagon";
+			break;
+		default:
+			return @"WTF";
+			break;
 	}
 }
 

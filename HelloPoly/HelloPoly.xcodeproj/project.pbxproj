@@ -15,6 +15,7 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		87817A9D150315BA001EB0BD /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 87817A9C150315BA001EB0BD /* Controller.m */; };
 		87817AA6150317EC001EB0BD /* PolygonShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 87817AA5150317EC001EB0BD /* PolygonShape.m */; };
+		87817AED15063B0F001EB0BD /* PolyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87817AEC15063B0F001EB0BD /* PolyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		87817A9C150315BA001EB0BD /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
 		87817AA4150317EC001EB0BD /* PolygonShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonShape.h; sourceTree = "<group>"; };
 		87817AA5150317EC001EB0BD /* PolygonShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonShape.m; sourceTree = "<group>"; };
+		87817AEB15063B0F001EB0BD /* PolyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolyView.h; sourceTree = "<group>"; };
+		87817AEC15063B0F001EB0BD /* PolyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolyView.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HelloPoly-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HelloPoly-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				87817AEB15063B0F001EB0BD /* PolyView.h */,
+				87817AEC15063B0F001EB0BD /* PolyView.m */,
 				8D1107310486CEB800E47090 /* HelloPoly-Info.plist */,
 			);
 			name = Resources;
@@ -173,6 +178,7 @@
 				1D3623260D0F684500981E51 /* HelloPolyAppDelegate.m in Sources */,
 				87817A9D150315BA001EB0BD /* Controller.m in Sources */,
 				87817AA6150317EC001EB0BD /* PolygonShape.m in Sources */,
+				87817AED15063B0F001EB0BD /* PolyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
