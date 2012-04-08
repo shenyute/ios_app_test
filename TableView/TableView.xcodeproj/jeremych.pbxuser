@@ -1,0 +1,176 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* TableViewAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 452}}";
+			sepNavSelRange = "{316, 29}";
+			sepNavVisRange = "{0, 465}";
+		};
+	};
+	1D3623250D0F684500981E51 /* TableViewAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1092}}";
+			sepNavSelRange = "{265, 0}";
+			sepNavVisRange = "{0, 827}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* TableView */ = {
+		activeExec = 0;
+		executables = (
+			87938CEE1531C2FA00FC8F2F /* TableView */,
+		);
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 477}}";
+			sepNavSelRange = "{289, 0}";
+			sepNavVisRange = "{0, 335}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{5540, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{5591, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{5641, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 6414}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 2678}}";
+			sepNavSelRange = "{5390, 0}";
+			sepNavVisRange = "{4939, 1247}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 87938CEE1531C2FA00FC8F2F /* TableView */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TableView */;
+		codeSenseManager = 87938CFF1531C31900FC8F2F /* Code sense */;
+		executables = (
+			87938CEE1531C2FA00FC8F2F /* TableView */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 355582714;
+			PBXWorkspaceStateSaveDate = 355582714;
+		};
+		perUserProjectItems = {
+			87938D491531D1C600FC8F2F /* PBXTextBookmark */ = 87938D491531D1C600FC8F2F /* PBXTextBookmark */;
+			87938D4A1531D1C600FC8F2F /* PBXTextBookmark */ = 87938D4A1531D1C600FC8F2F /* PBXTextBookmark */;
+			87938D4B1531D1C600FC8F2F /* PBXTextBookmark */ = 87938D4B1531D1C600FC8F2F /* PBXTextBookmark */;
+			87938D4C1531D1C600FC8F2F /* XCBuildMessageTextBookmark */ = 87938D4C1531D1C600FC8F2F /* XCBuildMessageTextBookmark */;
+			87938D541531D29E00FC8F2F /* PBXTextBookmark */ = 87938D541531D29E00FC8F2F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 87938CFE1531C31900FC8F2F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	87938CEE1531C2FA00FC8F2F /* TableView */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TableView;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	87938CFE1531C31900FC8F2F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	87938CFF1531C31900FC8F2F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	87938D491531D1C600FC8F2F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TableViewAppDelegate.h */;
+		name = "TableViewAppDelegate.h: 17";
+		rLen = 29;
+		rLoc = 316;
+		rType = 0;
+		vrLen = 465;
+		vrLoc = 0;
+	};
+	87938D4A1531D1C600FC8F2F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TableViewAppDelegate.m */;
+		name = "TableViewAppDelegate.m: 15";
+		rLen = 0;
+		rLoc = 265;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 0;
+	};
+	87938D4B1531D1C600FC8F2F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 14";
+		rLen = 0;
+		rLoc = 289;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 0;
+	};
+	87938D4C1531D1C600FC8F2F /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Request for member 'selectedTextColor' in something not a structure or union";
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 106;
+		rType = 1;
+	};
+	87938D541531D29E00FC8F2F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 166";
+		rLen = 0;
+		rLoc = 5390;
+		rType = 0;
+		vrLen = 1304;
+		vrLoc = 4939;
+	};
+}
