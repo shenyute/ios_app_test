@@ -12,6 +12,7 @@
 	IBOutlet UITextField *startField;
 	IBOutlet UITextField *endField;
 	IBOutlet UILabel *bottomLabel;
+	IBOutlet UIButton *resetButton;
 	//IBOutlet reportView *view;
 }
 

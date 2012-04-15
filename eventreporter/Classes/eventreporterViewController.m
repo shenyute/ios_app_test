@@ -10,6 +10,13 @@
 
 @implementation eventreporterViewController
 
+- (void)resetPage:(id)sender {
+	startField.text = @"Begin: 159,230";
+	startField.center = CGPointMake(159,230);
+	endField.text = @"Begin: 159,230";
+	endField.center = CGPointMake(159,230);
+	bottomLabel.text = [NSString string];
+}
 
 - (void)manageTouches:(NSSet *)touches {
 	for (UITouch *touch in touches) {
@@ -53,12 +60,13 @@
 */
 
 
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+	[resetButton addTarget:self action:@selector(resetPage:)
+	   forControlEvents:UIControlEventTouchUpInside];
     [super viewDidLoad];
 }
-*/
+
 
 
 /*
