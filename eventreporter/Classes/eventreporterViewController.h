@@ -13,10 +13,13 @@
 	IBOutlet UITextField *endField;
 	IBOutlet UILabel *bottomLabel;
 	IBOutlet UIButton *resetButton;
+	IBOutlet UITextField *myText;
+	IBOutlet UISlider *mySlider;
 	//IBOutlet reportView *view;
 }
 
 - (void)manageTouches:(NSSet *)touches;
+- (IBAction)changeColor:(id)sender;
 
 @end
 

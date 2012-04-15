@@ -311,7 +311,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>eventreporterViewController.m</string>
+								<string>eventreporterViewController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -319,17 +319,17 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>eventreporterViewController.m</string>
+										<string>eventreporterViewController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>87938D95153AFEE700FC8F2F</string>
+										<string>87938DB3153B08F100FC8F2F</string>
 										<key>history</key>
 										<array>
 											<string>87938D75153A7D8500FC8F2F</string>
 											<string>87938D77153A7D8500FC8F2F</string>
-											<string>87938D90153AFEC900FC8F2F</string>
-											<string>87938D91153AFEC900FC8F2F</string>
+											<string>87938DAE153B070C00FC8F2F</string>
+											<string>87938DAF153B070C00FC8F2F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

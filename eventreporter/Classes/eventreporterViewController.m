@@ -59,15 +59,42 @@
 }
 */
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+	[textField resignFirstResponder];
+	return YES;
+}
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	[resetButton addTarget:self action:@selector(resetPage:)
 	   forControlEvents:UIControlEventTouchUpInside];
+	myText.returnKeyType = UIReturnKeyDone;
     [super viewDidLoad];
 }
 
 
+- (IBAction)changeColor:(id)sender { 
+	int red;
+	int green;
+	int blue;
+	if ([myText.text caseInsensitiveCompare:@"red"] == NSOrderedSame) {
+		red = 1;
+		green = 0;
+		blue = 0;
+	} else if ([myText.text caseInsensitiveCompare:@"blue"] == NSOrderedSame) {
+		red = 0;
+		green = 0;
+		blue = 1;
+	} else if ([myText.text caseInsensitiveCompare:@"green"] == NSOrderedSame) { 
+		red = 0; 
+		green = 1;
+		blue = 0;
+	} else {
+		red = .5; green = .5; blue = .5;
+	} float newShade = mySlider.value /
+	(mySlider.maximumValue - mySlider.minimumValue); 
+	[self.view setBackgroundColor: [UIColor colorWithRed:red green:green blue:blue alpha:newShade]];
+}
 
 /*
 // Override to allow orientations other than the default portrait orientation.
